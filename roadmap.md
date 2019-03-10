@@ -6,31 +6,28 @@ The .NET Core team is currently focused on Web, Cloud, Microservices, Containers
 
 ## Released Versions
 
-[.NET Core 2.0](https://github.com/dotnet/core/issues/812) shipped on August 14th, 2017.
+* [Latest updates](https://github.com/dotnet/core/blob/master/release-notes/README.md) or [Download archive](https://github.com/dotnet/core/blob/master/release-notes/download-archive.md)
 
 For released versions of the product:
 
 * [Supported OSes](os-lifecycle-policy.md)
 * [Release Notes](release-notes/README.md)
+* [Support Timelines](microsoft-support.md)
 
 ## Upcoming Ship Dates
 
 | Milestone                 | Release Date |
 |---------------------------|--------------|
-| .NET Core 2.1 Preview | Q4 2017 |
-| .NET Core 2.1 | Q1 2018 |
+| .NET Core 2.2.x, 2.1.x, 1.x (servicing) | Approximately every 1-2 months or as needed (see also [releases](https://github.com/dotnet/core/blob/master/release-notes/download-archive.md#net-core-21)) |
+| .NET Core 3.0 | [Preview releases](https://github.com/dotnet/core/blob/master/release-notes/3.0/README.md) <br/> Final version in second half of 2019 - see [Schedule in Preview 3](https://devblogs.microsoft.com/dotnet/announcing-net-core-3-preview-3) (from 2019/3). Ship date will be announced at the Build 2019 conference. <br/> Previous announcements: [original 2018/5](https://blogs.msdn.microsoft.com/dotnet/2018/05/07/net-core-3-and-support-for-windows-desktop-applications/) and [update 2018/10](https://blogs.msdn.microsoft.com/dotnet/2018/10/04/update-on-net-core-3-0-and-net-framework-4-8/). |
 
 Note: Dates are calendar year (as opposed to fiscal year).
 
 Milestone information is available on most repos, for example [dotnet/corefx milestones](https://github.com/dotnet/corefx/milestones).
 
-## .NET Core 2.1 Release
-
-The .NET Core 2.1 project has not yet started. The team is currently working on infastructure improvements to the .NET Core build and release system. .NET Core 2.1 release information will be shared here once planning starts.
-
 ## Feedback
 
-The best way to give feedback is to create issues in the [dotnet/core](https://github.com/dotnet/core) repo with the [roadmap label](https://github.com/dotnet/core/labels/roadmap). You can also create issues in other [.NET Core repos](Documentation/core-repos.md) if you find that to be more appropriate for the topic you want to discuss.
+The best way to give feedback is to create issues in the [dotnet/core](https://github.com/dotnet/core) repo. You can also create issues in other [.NET Core repos](Documentation/core-repos.md) if you find that to be more appropriate for the topic you want to discuss.
 
 Although mostly obvious, please give us feedback that will give us insight on the following points:
 
