@@ -1,8 +1,8 @@
-# .NET Core Roadmap
+# .NET Release Schedule
 
-The .NET Core roadmap communicates project priorities for evolving and extending the scope of the product. New product experiences and features will include changes in various [layers of the product](Documentation/core-repos.md), in some combination of the runtime, framework, language compilers and tools. Each component may have its own component-level roadmap that will available in the repo for that component.
+This document covers the upcoming release dates for .NET and .NET Core.
 
-The .NET Core team is currently focused on Web, Cloud, Microservices, Containers, and Console applications. We encourage the community to work with us to improve .NET Core for these scenarios and extend it for others.
+If you're looking for the product roadmap, see the [current roadmap](product-roadmap/current.md) document.
 
 ## Released Versions
 
@@ -10,24 +10,28 @@ The .NET Core team is currently focused on Web, Cloud, Microservices, Containers
 
 For released versions of the product:
 
-* [Supported OSes](os-lifecycle-policy.md)
-* [Release Notes](release-notes/README.md)
-* [Support Timelines](microsoft-support.md)
+* [Supported operating systems](os-lifecycle-policy.md)
+* [Release notes](release-notes/README.md)
+* [Support timelines](microsoft-support.md)
 
 ## Upcoming Ship Dates
 
 | Milestone                 | Release Date |
 |---------------------------|--------------|
-| .NET Core 2.2.x, 2.1.x, 1.x (servicing) | Approximately every 1-2 months or as needed (see also [releases](https://github.com/dotnet/core/blob/master/release-notes/download-archive.md#net-core-21)) |
-| .NET Core 3.0 | [Preview releases](https://github.com/dotnet/core/blob/master/release-notes/3.0/README.md) <br/> Final version in second half of 2019 - see [Schedule in Preview 3](https://devblogs.microsoft.com/dotnet/announcing-net-core-3-preview-3) (from 2019/3). Ship date will be announced at the Build 2019 conference. <br/> Previous announcements: [original 2018/5](https://blogs.msdn.microsoft.com/dotnet/2018/05/07/net-core-3-and-support-for-windows-desktop-applications/) and [update 2018/10](https://blogs.msdn.microsoft.com/dotnet/2018/10/04/update-on-net-core-3-0-and-net-framework-4-8/). |
+| .NET Core 2.1.x (servicing) | LTS (Long Term Support) release. Approximately every 1-2 months or as needed. |
+| .NET Core 3.1.x (servicing) | LTS (Long Term Support) release. Approximately every 1-2 months or as needed. |
+| .NET 5.0 | Release scheduled for November 2020 |
+| .NET 6.0 | LTS (Long Term Support) release, scheduled for November 2021 |
+| .NET 7.0 | Release scheduled for November 2022 |
+| .NET 8.0 | LTS (Long Term Support) release, scheduled for November 2023 |
 
-Note: Dates are calendar year (as opposed to fiscal year).
+Details about longer-term schedule have been announced on May 6th, 2019 in [Introducing .NET 5](https://devblogs.microsoft.com/dotnet/introducing-net-5/) blog post.
 
-Milestone information is available on most repos, for example [dotnet/corefx milestones](https://github.com/dotnet/corefx/milestones).
+Milestone information is available on most repos, for example [dotnet/runtime milestones](https://github.com/dotnet/runtime/milestones).
 
 ## Feedback
 
-The best way to give feedback is to create issues in the [dotnet/core](https://github.com/dotnet/core) repo. You can also create issues in other [.NET Core repos](Documentation/core-repos.md) if you find that to be more appropriate for the topic you want to discuss.
+The best way to give feedback is to create issues in the [dotnet/core](https://github.com/dotnet/core) repo. You can also create issues in other [.NET repos](Documentation/core-repos.md) if you find that to be more appropriate for the topic you want to discuss.
 
 Although mostly obvious, please give us feedback that will give us insight on the following points:
 
